@@ -1,0 +1,38 @@
+*{margin: 0;
+padding: 0;}
+main{
+    background-color:royalblue;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 70px;
+  }
+  main nav{
+    background-color:whitesmoke;
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px 60px 100px;
+    display: inline-block;
+  }
+    /*barramenu*/
+nav{
+    background-color: #FF1744;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+  }
+  nav ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(31, 28, 28);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+  }
+  
+  .active{
+    background-color: blueviolet;
+  }

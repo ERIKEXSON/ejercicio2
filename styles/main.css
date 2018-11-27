@@ -31,7 +31,7 @@ nav{
     height: 1570px;
     padding-top: 1px;
     margin: 40px;
-    background-color: darkgoldenrod;
+    background-color: gray;
 }
 .page1>article{
     width: 960px;
@@ -45,11 +45,11 @@ nav{
     margin: 0 16px 0 0;
     display: inline-block;
 }
-.page1>article>article>article{
+.page1>article>article>div{
     width: 280px;
     height: 280px;
     margin: 10px;
-    background-color: gray;
+    background-color:white;
     border-radius: 50%;
 }
 .page1>div{
@@ -57,14 +57,14 @@ nav{
     height: 420px;
     margin: 20px 0 20px 80px;
 }
-.page1>div>div{
+.page1>div>nav{
     width: 420px;
     height: 420px;
     background-color: black;
     margin: 0 16px 0 0;
     display: inline-block;
 }
-.page1>div>div>div{
+.page1>div>nav>div{
     width: 400px;
     height: 400px;
     margin: 10px;
@@ -112,7 +112,7 @@ nav{
     width: 800px;
     height: 999px;
     padding-top: 1px;
-    background-color: darkgoldenrod;
+    background-color: gray;
     margin: 40px;
 }
 .page2>article{
